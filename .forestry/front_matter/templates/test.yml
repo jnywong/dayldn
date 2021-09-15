@@ -33,7 +33,7 @@ fields:
   name: authors
   label: authors
   config:
-    use_select: true
+    use_select: false
     source:
       type: documents
       section: authors
