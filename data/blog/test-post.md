@@ -2,7 +2,8 @@
 date: 2021-09-14
 title: Test post
 lastmod: 
-tags: []
+tags:
+- test
 draft: false
 summary: This is a test post through Forestry.
 images: []
