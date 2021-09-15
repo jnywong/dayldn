@@ -14,4 +14,4 @@ authors:
 
 This is a test post through Forestry CMS.
 
-![](public/ocean.jpeg)
+![mountains](public/static/images/canada/mountains.jpg)
