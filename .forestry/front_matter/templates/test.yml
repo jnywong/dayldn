@@ -1,0 +1,28 @@
+---
+label: test
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: list
+  name: tags
+  label: tags
+- type: boolean
+  name: draft
+  label: draft
+- type: textarea
+  name: summary
+  label: summary
+- type: image_gallery
+  name: images
+  label: images
+- type: list
+  name: authors
+  label: authors
