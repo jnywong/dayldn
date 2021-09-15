@@ -26,3 +26,5 @@ fields:
 - type: list
   name: authors
   label: authors
+pages:
+- data/blog/test-post.md
