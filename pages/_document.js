@@ -9,7 +9,7 @@ class MyDocument extends Document {
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/static/favicons/logo-32x32.png"
+            href="/static/favicons/favicon-32x32.png"
           />
           <link
             rel="icon"
