@@ -25,11 +25,8 @@ export default function Home({ posts }) {
           <div className="h-36 relative">
             <Image
               src='/static/images/header.png'
-              // width="600px"
-              // height="400px"
               layout="fill"
-              alt="banner"
-              // objectFit='cover'
+              alt="header"
               className="object-contain" 
             />
           </div>
