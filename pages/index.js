@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         <div className="p-4 pt-6 pb-8 space-y-2 md:space-y-5 text-center bg-yellow-100 shadow-lg dark:bg-gray-900">
           <div className="h-36 relative">
             <Image
-              src='/static/images/header.webp'
+              src='/static/images/header.png'
               // width="600px"
               // height="400px"
               layout="fill"
