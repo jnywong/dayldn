@@ -24,13 +24,13 @@ export default function Home({ posts }) {
         <div className="p-4 pt-6 pb-8 space-y-2 md:space-y-5 text-center bg-yellow-100 shadow-lg dark:bg-gray-900">
           <div className="h-36 relative">
             <Image
-              src='/static/images/header.png'
+              src="/static/images/header.png"
               layout="fill"
               alt="header"
-              className="object-contain" 
+              className="object-contain"
             />
           </div>
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-yellow-500 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">          
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-yellow-500 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Dear Asian Youth London
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400 pt-6">
