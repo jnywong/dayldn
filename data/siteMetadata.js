@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'DAYLDN | Dear Asian Youth London',
   author: 'DAYLDN',
   headerTitle: 'DAYLDN',
-  description: 'Dear Asian Youth London',
+  description: 'DAYLDN is run by 7 university students who organise and coordinate a range of teams from Outreach, Design, Editorial and Research. Within these teams, DAYLDN has a total of 37 volunteers who ensure the smooth running of the page. Our volunteers range from the ages 15-23 and come from a diverse range of Asian cultures.',
   language: 'en-us',
   siteUrl: 'https://tailwind-beta.vercel.app/',
   siteRepo: 'https://github.com/jnywong/tailwind',

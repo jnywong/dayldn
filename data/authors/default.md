@@ -1,6 +1,6 @@
 ---
 name: Dear Asian Youth London
-avatar: /static/favicons/dayldn_logo.webp
+avatar: /static/images/avatar.png
 occupation: 
 company: 
 email: address@yoursite.com

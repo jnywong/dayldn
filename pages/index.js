@@ -21,8 +21,8 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          {/* <div className="container mx-auto pb-8">
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5 text-center">
+          <div className="h-36 relative">
             <Image
               src='/static/images/header.webp'
               // width="600px"
@@ -30,11 +30,10 @@ export default function Home({ posts }) {
               layout="fill"
               alt="banner"
               // objectFit='cover'
-              // objectPosition='center'
-              className="object-contain w-2 h-2"
+              className="object-contain" 
             />
-          </div> */}
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          </div>
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-yellow-500 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">          
             Dear Asian Youth London
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400 pt-6">
