@@ -21,7 +21,7 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5 text-center">
+        <div className="p-4 pt-6 pb-8 space-y-2 md:space-y-5 text-center bg-yellow-100 shadow-lg dark:bg-gray-900">
           <div className="h-36 relative">
             <Image
               src='/static/images/header.webp'
