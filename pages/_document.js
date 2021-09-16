@@ -9,7 +9,7 @@ class MyDocument extends Document {
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/static/favicons/favicon-32x32.png"
+            href="/static/favicons/logo-32x32.svg"
           />
           <link
             rel="icon"
@@ -34,7 +34,8 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
         </Head>
-        <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
+        {/* Change website background colour */}
+        <body className="antialiased text-black bg-yellow-50 dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
         </body>

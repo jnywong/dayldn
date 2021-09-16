@@ -6,11 +6,11 @@ const siteMetadata = {
   language: 'en-us',
   siteUrl: 'https://tailwind-beta.vercel.app/',
   siteRepo: 'https://github.com/jnywong/tailwind',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: '/static/favicons/dayldn_logo.webp',
+  image: '/static/favicons/dayldn_logo.webp',
+  socialBanner: '/static/favicons/dayldn_logo.webp',
   email: 'address@yoursite.com',
-  github: 'https://github.com',
+  github: 'https://github.com/jnywong/tailwind',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
@@ -46,7 +46,7 @@ const siteMetadata = {
       // transparent_dark, preferred_color_scheme, custom
       theme: 'light',
       // theme when dark mode
-      darkTheme: 'transparent_dark',
+      darkTheme: 'dark_dimmed',
       // If the theme option above is set to 'custom`
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css

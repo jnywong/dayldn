@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Image from '@/components/Image'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -21,10 +22,22 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <div className="container mx-auto pb-8">
+            <Image
+              src='/static/images/header.webp'
+              // width="600px"
+              // height="400px"
+              layout="fill"
+              alt="banner"
+              // objectFit='cover'
+              // objectPosition='center'
+              className="object-contain w-2 h-2"
+            />
+          </div>
+          {/* <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Dear Asian Youth London
+          </h1> */}
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400 pt-6">
             {siteMetadata.description}
           </p>
         </div>
