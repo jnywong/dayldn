@@ -17,7 +17,5 @@ export default function About({ authorDetails }) {
       mdxSource={mdxSource}
       frontMatter={frontMatter}
     />
-
-    
   )
 }
