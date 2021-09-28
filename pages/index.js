@@ -11,6 +11,7 @@ import NewsletterForm from '@/components/NewsletterForm'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
+  // Fetch data at build time for pre-rendering/static generation
   const posts = await getAllFilesFrontMatter('blog')
 
   return { props: { posts } }

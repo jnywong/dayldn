@@ -1,3 +1,5 @@
+# This is a config.yml for configuring Netlify CMS
+
 backend:
   name: github
   repo: jnywong/tailwind
